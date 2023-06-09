@@ -1,5 +1,7 @@
 function toggleMode() {
+  //acessar o documento html
   const html = document.documentElement
+  //inserir a classe light no elemento html
   html.classList.toggle("light")
 
   //if(html.classList.contains('light')) {
